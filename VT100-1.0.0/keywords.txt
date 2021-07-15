@@ -1,0 +1,66 @@
+###############################################
+# Syntax coloring 
+###############################################
+
+###############################################
+# Literals (LITERAL1)
+###############################################
+
+VT_BLACK	LITERAL1
+VT_RED	LITERAL1
+VT_GREEN	LITERAL1
+VT_YELLOW	LITERAL1
+VT_BLUE	LITERAL1
+VT_MAGNETA	LITERAL1
+VT_CYAN	LITERAL1
+VT_WHITE	LITERAL1
+VT_DEFAULT	LITERAL1
+
+VT_RESET	LITERAL1
+VT_BRIGHT	LITERAL1
+VT_DIM	LITERAL1
+VT_UNDERSCORE	LITERAL1
+VT_BLINK	LITERAL1
+VT_REVERSE	LITERAL1
+VT_HIDDEN	LITERAL1
+
+###############################################
+# Datatypes (KEYWORD1)
+###############################################
+
+VT100_Control	KEYWORD1
+VT100_TextFormat	KEYWORD1
+VT100_Colors	KEYWORD1
+
+VT100	KEYWORD1
+
+###############################################
+# Functions (KEYWORD2)
+###############################################
+
+begin	KEYWORD2
+reset	KEYWORD2
+
+cursorUp	KEYWORD2
+cursorDown	KEYWORD2
+cursorLeft	KEYWORD2
+cursorRight	KEYWORD2
+setCursor	KEYWORD2
+cursorOn	KEYWORD2
+cursorOff	KEYWORD2
+cursorHome	KEYWORD2
+cursorSave	KEYWORD2
+cursorRestore	KEYWORD2
+
+clearLineAfter	KEYWORD2
+clearLineBefore	KEYWORD2
+clearLine	KEYWORD2
+clearScreen	KEYWORD2
+clearAll	KEYWORD2
+
+setBackgroundColor	KEYWORD2
+setTextColor	KEYWORD2
+formatText	KEYWORD2
+
+
+####################### END ############################
